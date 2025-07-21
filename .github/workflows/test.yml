@@ -13,7 +13,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Fix issues
-        run: npm audit fix
+        run: npm audit fix --force
       - name: Run Tests
         run: npm test
 
